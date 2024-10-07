@@ -28,3 +28,24 @@ const obj2 = {3: "a", 4: "b"}
 
 //const obj3 = {...obj1, ...obj2}
 //console.log(obj3);
+
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const game = {
+    gamename: "valorant",
+    price: "free",
+    gamemode: "multiplayer"
+}
+
+// game.game.gamemode
+
+const {gamemode: mode} = game
+
+console.log(mode);
